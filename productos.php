@@ -11,6 +11,12 @@
 </head>
 <body>
 
+<?php
+
+include 'barranavv.html';
+
+?>
+
 <h1 class="bg-dark text-primary text-center p-3 fw-bold">
     Mis productos
 </h1>

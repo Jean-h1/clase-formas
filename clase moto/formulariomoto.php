@@ -18,21 +18,30 @@
         <form action="vermotocicleta.php" method="POST">
 
             <div class="mb-3">
+                
                 <label class="form-label">Marca de la Moto</label>
+
                 <input type="text" name="marca" class="form-control bg-light text-dark" required>
             </div>
 
             <div class="mb-3">
+
                 <label class="form-label">Modelo de la Moto</label>
+
                 <input type="text" name="modelo" class="form-control bg-light text-dark" required>
+
             </div>
             
             <div class="mb-3">
+
                 <label class="form-label">Cilindraje de la Moto</label>
+
                 <input type="text" name="cilindraje" class="form-control bg-light text-dark" required>
+
             </div>
 
             <button type="submit" class="btn btn-danger w-100 mb-2">Enviar</button>
+
             <button type="reset" class="btn btn-outline-danger w-100">Borrar</button>
 
         </form>
